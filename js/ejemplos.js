@@ -329,3 +329,7 @@ const alejandra = [
 for (const mama of alejandra){
     console.table(mama)
 }
+continuar = prompt('¿Desea realizar otra acción? si/no').toLowerCase() === 'si';
+    if (!continuar) {
+        console.log('¡Hasta Luego!');
+    }
